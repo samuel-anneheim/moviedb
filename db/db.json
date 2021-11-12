@@ -1,0 +1,56 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "nom": "samuel",
+      "prenom": "Anneheim",
+      "email": "samuel@samuel.fr",
+      "tel": "06.01.02.03.40",
+      "adresse": {
+        "ville": "lille",
+        "adresse": "1 rue de lille",
+        "cp": "59500",
+        "pays": "france"
+      }
+    }
+  ],
+  "reservations": [
+    {"client": 152, "salle": 2, "date": "", "film": 2}
+
+  ],
+  "films": [
+    {
+      "id": 278,
+      "langueOriginal": "en",
+      "titreOriginal": "The Shawshank Redemption",
+      "resume": "En 1947, Andy Dufresne, un jeune banquier, est condamné à la prison à vie pour le meurtre de sa femme et de son amant. Ayant beau clamer son innocence, il est emprisonné à Shawshank, le pénitencier le plus sévère de l'État du Maine. Il y fait la rencontre de Red, un noir désabusé, détenu depuis vingt ans. Commence alors une grande histoire d'amitié entre les deux hommes...",
+      "popularite": 59.691,
+      "dateDeSortie": "1994-09-23",
+      "titre": "Les Évadés",
+      "noteVote": 8.7,
+      "nbrVote": 20063
+
+    },
+    {
+      "id": 27,
+      "langueOriginal": "en",
+      "titreOriginal": "Fast and furious",
+      "resume": "vroum vroum",
+      "popularite": 59.691,
+      "dateDeSortie": "2015-09-23",
+      "titre": "Fast and furious",
+      "noteVote": 8.7,
+      "nbrVote": 20063
+    }
+  ],
+  "salles": [
+    {
+      "id": 1,
+      "numSalle": 2,
+      "film":
+      [
+        {"filmId": 5}
+      ]
+    }
+  ]
+}
