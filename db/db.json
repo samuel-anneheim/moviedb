@@ -10,13 +10,17 @@
         "ville": "lille",
         "adresse": "1 rue de lille",
         "cp": "59500",
-        "pays": "france"
+        "pays": "frace"
       }
     }
   ],
   "reservations": [
-    {"client": 152, "salle": 2, "date": "", "film": 2}
-
+    {
+      "client": 152,
+      "salle": 2,
+      "date": "",
+      "film": 2
+    }
   ],
   "films": [
     {
@@ -28,8 +32,8 @@
       "dateDeSortie": "1994-09-23",
       "titre": "Les Évadés",
       "noteVote": 8.7,
-      "nbrVote": 20063
-
+      "nbrVote": 20063,
+      "duree": 130
     },
     {
       "id": 27,
@@ -40,16 +44,36 @@
       "dateDeSortie": "2015-09-23",
       "titre": "Fast and furious",
       "noteVote": 8.7,
-      "nbrVote": 20063
+      "nbrVote": 20063,
+      "duree": 140
+    },
+    {
+      "titre": "fgdfgfd",
+      "titreOriginal": "dq",
+      "langueOriginal": "fr",
+      "duree": 585,
+      "id": 280
     }
   ],
   "salles": [
     {
       "id": 1,
+      "numSalle": 1,
+      "nbrPlace": 350,
+      "film": [
+        {
+          "filmId": 5
+        }
+      ]
+    },
+    {
+      "id": 2,
       "numSalle": 2,
-      "film":
-      [
-        {"filmId": 5}
+      "nbrPlace": 250,
+      "film": [
+        {
+          "filmId": 5
+        }
       ]
     }
   ]

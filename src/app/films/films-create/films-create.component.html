@@ -1,1 +1,22 @@
-<p>films-create works!</p>
+<h2>Nouvel utilisateur</h2>
+
+<form [formGroup]="filmForm" (ngSubmit)="sendForm()">
+    <div>
+        <label for="titreOriginal">Titre Original</label>
+        <input type="text" id="titreOriginal" formControlName="titreOriginal">
+    </div>
+    <div>
+        <label for="titre">Titre</label>
+        <input type="text" id="titre" formControlName="titre">
+    </div>
+    <div>
+        <label for="langueOriginal">Langue original</label>
+        <input type="email" id="langueOriginal" formControlName="langueOriginal">
+    </div>
+    <div>
+        <label for="duree">duree</label>
+        <input type="number" id="duree" formControlName="duree">
+    </div>
+
+    <button type="submit" [disabled]="!filmForm.valid">Ajouter</button>
+</form>

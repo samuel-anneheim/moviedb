@@ -17,8 +17,6 @@ export class FilmsPageComponent implements OnInit {
     this.filmsService.getMovies()
     .subscribe((films:Film[])=> {
       this.films = films
-    })
-    
+    }) 
   }
-
 }

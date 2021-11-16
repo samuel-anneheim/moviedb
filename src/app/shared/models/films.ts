@@ -7,5 +7,6 @@ export interface Film {
     dateDeSortie: string,
     titre: string,
     noteVideo: number,
-    nbrVote: number
+    nbrVote: number,
+    duree: number
 }

@@ -22,6 +22,7 @@ import { ReservationComponent } from './reservations/reservations-pages/reservat
 import { UsersCreateComponent } from './users/users-create/users-create.component';
 import { UsersPageComponent } from './users/users-page/users-page.component';
 import { UserComponent } from './users/users-page/user/user.component'
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 @NgModule({
   declarations: [
     AppComponent,
@@ -45,7 +46,9 @@ import { UserComponent } from './users/users-page/user/user.component'
     BrowserAnimationsModule,
     MatToolbarModule,
     MatButtonModule, 
-    HttpClientModule
+    HttpClientModule,
+    FormsModule,
+    ReactiveFormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
